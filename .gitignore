@@ -1,3 +1,7 @@
 privado.txt
 
 .venv/
+
+*.csv
+
+main.py
