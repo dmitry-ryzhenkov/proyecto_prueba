@@ -1,3 +1,5 @@
+import pandas as pd
+
 saludo = "Hola"
 despedida = "Adiós"
 
@@ -11,3 +13,7 @@ else:
     print(despedida + ", " + nombre)
 
 # hola
+
+print(pd.DataFrame({
+    "nombre" : [nombre]
+}, columns=["Nombre"]))
