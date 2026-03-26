@@ -1,3 +1,1 @@
-print("Hola mundo")
-
-print("ciudad")
+print("bicicleta")
