@@ -1,5 +1,11 @@
 saludo = "Hola"
+despedida = "Adiós"
 
-nombre = input("¿Cómo te llamas?")
+nombre = input("¿Cómo te llamas? ")
 
-print(saludo + ", " + nombre)
+edad = input("¿Cuántos años tienes?")
+
+if int(edad) >= 18:
+    print(saludo + ", " + nombre)
+else:
+    print(despedida + ", " + nombre)
